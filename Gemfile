@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 2.5'
 
+gem "rack", ">= 2.0.6"
+gem "actionview", ">= 5.2.2.1"
+gem "railties", ">= 5.2.2.1"
 gem "aws-sdk-s3", require: false
 gem 'stripe'
 gem 'faker'
